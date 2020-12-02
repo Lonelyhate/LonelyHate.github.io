@@ -2,5 +2,5 @@
 # Никита Федоров
 Мои сайты
 
-[Сайт №1]() <br>
-[Сайт №2]
+[Сайт №1 - Штукатурка стен](LonelyHate.github.io/shtukaturkasten/src/) <br>
+[Сайт №2 - ActiveBox](LonelyHate.github.io/ActiveBox/) <br>
