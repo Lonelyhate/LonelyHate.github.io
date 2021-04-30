@@ -1,0 +1,1067 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.inner {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+  height: 61px;
+  background: #333333;
+}
+
+.inner-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-social {
+  display: none;
+}
+
+.logo {
+  position: relative;
+  margin-top: 5px;
+}
+
+.logo-text {
+  font-size: 35px;
+  color: #F9B233;
+  position: relative;
+  z-index: 40;
+  margin-left: 5px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(40deg, #1D71B8 14.1%, #562583 83.43%);
+  position: absolute;
+  z-index: 20;
+  border-radius: 50%;
+  left: -4px;
+  top: -3px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.nav {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ffff;
+  margin-left: 35px;
+  margin-right: 35px;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+.nav-link:hover {
+  color: #F9B233;
+}
+
+.menu-active {
+  color: #F9B233;
+}
+
+.slider {
+  padding-top: 61px;
+  margin-top: 15px;
+}
+
+.slider-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.slider-img {
+  max-height: 617px;
+  margin: 0 auto;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 40%;
+  border: none;
+  z-index: 10;
+  font-size: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.slick-arrow.slick-prev {
+  left: 0;
+  background: url("../img/icon-left.svg") 0 0/100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+  background: url("../img/icon-right.svg") 0 0/100% no-repeat;
+}
+
+.eat {
+  margin-top: 30px;
+}
+
+.eat-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eat-text {
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.eat-img {
+  max-width: 100%;
+  height: 650px;
+}
+
+.eat img {
+  width: 2000px;
+}
+
+.news {
+  margin-top: 30px;
+}
+
+.news-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 45px;
+}
+
+.news-item-text {
+  max-width: 760px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.title {
+  font-size: 56px;
+  color: #000000;
+  text-align: center;
+}
+
+.position {
+  margin-top: 85px;
+}
+
+.position img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-logo-text {
+  font-size: 60px;
+}
+
+.footer-logo-circle {
+  width: 85px;
+  height: 85px;
+  left: -8px;
+}
+
+.footer-support-title {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer-support-text {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.footer-social-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.footer-social a img {
+  width: 72px;
+  height: 67px;
+}
+
+.header-shops {
+  padding-top: 51px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.header-shops img {
+  width: 100%;
+  height: auto;
+}
+
+.restaurants {
+  padding-top: 45px;
+  margin-top: 15px;
+}
+
+.restaurants-title {
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+
+.restaurants-text {
+  margin-top: 35px;
+  font-size: 29px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.restaurants-item {
+  margin-top: 55px;
+  width: 25%;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-link {
+  text-decoration: none;
+}
+
+.list-link img {
+  margin: 0 auto;
+  display: block;
+}
+
+.list-link-name {
+  font-weight: 500;
+  text-align: center;
+  font-size: 36px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.list-link-location {
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.event-text {
+  margin-top: 50px;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 43px;
+}
+
+.event-item {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.event-title {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.event-textt {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.event-info {
+  max-width: 909px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-title {
+  padding-top: 60px;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.contacts-text {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.form {
+  width: 567px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.form-title {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-input {
+  width: 373px;
+  height: 60px;
+  border: 4px solid #000;
+  margin-top: 45px;
+  font-size: 25px;
+}
+
+.form-input::-webkit-input-placeholder {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-input:-ms-input-placeholder {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-input::-ms-input-placeholder {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-input::placeholder {
+  font-size: 25px;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.form-btn {
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 10px;
+  background-color: #F9B233;
+  border: none;
+  margin-top: 60px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #d69119;
+}
+
+.park-position {
+  padding-top: 81px;
+  margin-bottom: 55px;
+}
+
+.park-position img {
+  width: 100%;
+  height: auto;
+}
+
+.park-space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 76px;
+}
+
+.park-space-text {
+  font-size: 56px;
+}
+
+.park-space-number {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F9B233;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.park-space-number-two {
+  padding-left: 73px;
+}
+
+.bershka-title {
+  font-size: 56px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.bershka-contacts {
+  margin-top: 22px;
+  width: 100%;
+  height: 195px;
+  background-color: #F9B233;
+}
+
+.bershka-contacts-text {
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.bershka-info {
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 300;
+}
+
+.bershka-info p {
+  margin-top: 35px;
+}
+
+.bershka-position {
+  margin-top: 90px;
+}
+
+.bershka-position img {
+  width: 100%;
+  height: auto;
+}
+
+.bershka-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.slidertrk {
+  margin-top: 50px;
+}
+
+.slidertrk-item img {
+  width: 100%;
+  height: 800px;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 35%;
+  left: -40px;
+}
+
+.slick-dots li {
+  list-style: none;
+}
+
+.slick-dots button {
+  background-color: white;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #868484;
+}
+
+.slick-dots li.slick-active button {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .nav-link {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .eat-text {
+    font-size: 20px;
+  }
+  .eat img {
+    height: 550px;
+  }
+  .news-item-text {
+    margin-left: 30px;
+  }
+  .footer-support-title {
+    font-size: 40px;
+  }
+  .footer-support-text {
+    font-size: 20px;
+  }
+  .restaurants-title {
+    font-size: 30px;
+  }
+  .list-link img {
+    width: 200px;
+    height: auto;
+  }
+  .list-link-name {
+    font-size: 30px;
+  }
+  .list-link-location {
+    font-size: 25px;
+  }
+  .event-info {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    font-size: 17px;
+  }
+  .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .logo {
+    margin-top: 15px;
+  }
+  .logo-text {
+    font-size: 25px;
+  }
+  .logo-circle {
+    width: 35px;
+    height: 35px;
+    left: -1px;
+  }
+  .slider {
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 700px;
+  }
+  .slider-item img {
+    width: 100%;
+    height: 617px;
+  }
+  .slick-arrow.slick-prev {
+    left: -80px;
+  }
+  .slick-arrow.slick-next {
+    right: -80px;
+  }
+  .eat-text {
+    font-size: 17px;
+  }
+  .eat img {
+    height: 500px;
+  }
+  .footer-support-title {
+    font-size: 30px;
+  }
+  .footer-support-text {
+    font-size: 18px;
+  }
+  .footer-social-title {
+    font-size: 30px;
+  }
+  .footer-social a img {
+    width: 60px;
+    height: 60px;
+  }
+  .restaurants-title {
+    font-size: 25px;
+  }
+  .restaurants-text {
+    font-size: 24px;
+  }
+  .list-link img {
+    width: 150px;
+    height: auto;
+  }
+  .list-link-name {
+    font-size: 22px;
+  }
+  .list-link-location {
+    font-size: 18px;
+  }
+  .header-shops img {
+    height: 350px;
+  }
+  .event-text {
+    font-size: 27px;
+  }
+  .event-title {
+    font-size: 30px;
+  }
+  .event-textt {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .park-space-text {
+    font-size: 40px;
+  }
+  .park-space-number {
+    font-size: 60px;
+    padding: 40px;
+  }
+  .park-space-number-two {
+    padding-left: 55px;
+  }
+  .slidertrk-item img {
+    height: 600px;
+  }
+}
+
+.header-burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  .nav-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .header-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    margin-top: 22px;
+    z-index: 50;
+  }
+  .header-burger span {
+    position: absolute;
+    background-color: #ffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:before {
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger:after {
+    content: '';
+    background-color: #ffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header-burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .header-burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header-burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .nav {
+    position: fixed;
+    top: -103%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: linear-gradient(40deg, #1D71B8 14.1%, #562583 83.43%);
+    z-index: 10;
+  }
+  .nav-social {
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    right: 40%;
+  }
+  .nav.active {
+    top: 44px;
+  }
+  .slider {
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: auto;
+  }
+  .slider-item img {
+    max-height: 450px;
+    max-width: 500px;
+  }
+  .slick-arrow.slick-prev {
+    left: 0px;
+  }
+  .slick-arrow.slick-next {
+    right: 0px;
+  }
+  .slick-arrow {
+    width: 60px;
+    height: 60px;
+  }
+  .eat-text {
+    font-size: 15px;
+  }
+  .eat img {
+    height: 450px;
+  }
+  .news-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .news-item-text {
+    margin-left: 15px;
+  }
+  .news-item-img {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .news-item-img img {
+    width: 100%;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .footer-support-title {
+    font-size: 25px;
+  }
+  .footer-support-text {
+    font-size: 15px;
+  }
+  .footer-social-title {
+    font-size: 25px;
+  }
+  .footer-social a img {
+    width: 40px;
+    height: 40px;
+  }
+  .header-shops img {
+    height: 300px;
+  }
+  .list-link img {
+    width: 100px;
+    height: auto;
+  }
+  .list-link-name {
+    font-size: 23px;
+  }
+  .list-link-location {
+    font-size: 18px;
+  }
+  .event-text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .event-title {
+    font-size: 22px;
+  }
+  .event-textt {
+    font-size: 17px;
+  }
+  .contacts-title {
+    margin-top: 40px;
+    margin-bottom: 4px;
+  }
+  .contacts-text {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .park-position img {
+    height: 450px;
+  }
+  .park-space-text {
+    font-size: 25px;
+  }
+  .park-space-number {
+    font-size: 40px;
+    padding: 30px;
+  }
+  .park-space-number-two {
+    padding-left: 44px;
+  }
+  .bershka-title {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .bershka-contacts-text {
+    font-size: 25px;
+  }
+  .bershka-info {
+    font-size: 24px;
+  }
+  .bershka-position {
+    margin-top: 40px;
+  }
+  .slidertrk-item img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slider-item img {
+    height: 300px;
+  }
+  .slider-text {
+    font-size: 16px;
+  }
+  .eat-text {
+    font-size: 13px;
+  }
+  .eat img {
+    height: 350px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-support-title {
+    font-size: 20px;
+  }
+  .footer-support-text {
+    font-size: 12px;
+  }
+  .footer-social-title {
+    font-size: 20px;
+  }
+  .restaurants-title {
+    font-size: 25px;
+  }
+  .restaurants-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .restaurants-item {
+    width: 50%;
+  }
+  .header-shops img {
+    height: 180px;
+  }
+  .list-link img {
+    width: 120px;
+    height: auto;
+  }
+  .list-link-name {
+    font-size: 21px;
+  }
+  .list-link-location {
+    font-size: 16px;
+  }
+  .event-text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .event-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .event-img {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .event-img img {
+    width: 100%;
+    height: auto;
+  }
+  .event-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .contacts-title {
+    font-size: 35px;
+  }
+  .contacts-text {
+    font-size: 20px;
+  }
+  .form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .form-title {
+    font-size: 30px;
+  }
+  .form-input {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .form-btn {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .park-position img {
+    height: 300px;
+  }
+  .park-space-text {
+    font-size: 20px;
+  }
+  .park-space-number {
+    font-size: 25px;
+    padding: 15px;
+  }
+  .park-space-number-two {
+    padding-left: 25px;
+  }
+  .bershka-title {
+    font-size: 30px;
+  }
+  .bershka-contacts-text {
+    font-size: 18px;
+  }
+  .bershka-info {
+    font-size: 20px;
+  }
+  .bershka-info p {
+    margin-top: 20px;
+  }
+  .bershka-position {
+    margin-top: 40px;
+  }
+  .slidertrk {
+    margin-top: 20px;
+  }
+  .slidertrk-item img {
+    height: 400px;
+  }
+  .slick-dots {
+    top: 30%;
+  }
+  .slick-dots button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .nav-social {
+    right: 33%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
